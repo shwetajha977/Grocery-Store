@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Visit Report</title>
+    <style>
+      body {
+        font-family: "Times New Roman", sans-serif;
+        background-color: lightblue;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .container {
+        max-width: 600px;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+      }
+
+      .greeting {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        color: red;
+        font-style: "Times New Roman";
+      }
+
+      .regards {
+        font-style: italic;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p class="greeting">Dear Valued Customer {{name}},</p>
+      <p>
+        At Fresh Direct, we are constantly working to elevate your grocery
+        shopping experience, and we've noticed that you haven't had the chance
+        to explore our app recently. We want to ensure that you don't miss out
+        on the incredible updates we've introduced to make your shopping journey
+        even more enjoyable.<br />
+        Your satisfaction is our top priority, and we warmly invite you to
+        rediscover the delights of shopping with us. Whether you're interested
+        in discovering new, high-quality products, taking advantage of daily
+        deals, or embracing the convenience of seamless and fresh grocery
+        shopping, we've got it all for you.<br />
+        Explore the latest features and enhancements that we've carefully
+        crafted to cater to your needs. Our commitment to excellence extends to
+        every aspect of your shopping experience, ensuring that you get the best
+        out of every visit.<br />
+        Should you have any questions or need assistance while navigating our
+        app, our dedicated support team is standing by and ready to assist you.
+        Your convenience and satisfaction are of utmost importance to us.<br />
+        Thank you for choosing Fresh Direct as your preferred grocery store. We
+        look forward to continuing to serve you with excellence and providing
+        you with a delightful shopping experience.<br />
+      </p>
+      <p class="regards">Happy Shopping!<br />The Fresh Direct Team</p>
+    </div>
+  </body>
+</html>
