@@ -1,9 +1,7 @@
 # Grocery-Store
-It is a multi user application used for buying grocery items. A user can buy many products from one or multiple
-sections. Store manager can add, delete and edit products. Admin can add, delete and edit categories and if store
-manager want to add, delete and edit categories then it should be take permission from admin. Every category
-can have a number of products. System will automatically reflect the latest product/category added.
-Technologies Used
+It is a multi user application used for buying grocery items. A user can buy many products from one or multiple sections. Store manager can add, delete and edit products. Admin can add, delete and edit categories and if store manager want to add, delete and edit categories then it should be take permission from admin. Every category can have a number of products. System will automatically reflect the latest product/category added.
+
+## Technologies Used
 ● Flask for application code
 ● VueJs for UI and Jinja templates Bootstrap for HTML generation and css styling
 ● SQLite as the database for the application
@@ -12,11 +10,12 @@ Technologies Used
 ● Flask_restful for building RESTful APIs
 ● Redis for caching
 ● Redis for celery jobs
- Database Schema
+
+## Database Schema
 There are a total of 9 different tables for handling different functionalities of the applications:
 ➢ User:
-❖ It represents information about users.
-❖ It have columns such as “id”, “username”, “email”, “password”, “phone_no”, “address”,
+   ❖ It represents information about users.
+   ❖ It have columns such as “id”, “username”, “email”, “password”, “phone_no”, “address”,
 “gender”, “active”, “last_login_at”, “fs_uniquifier”, “roles” and “orders” columns.
 ❖ User link with RolesUser table through roles column and order table through orders column.
 ➢ Role:
